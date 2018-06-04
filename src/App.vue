@@ -20,7 +20,7 @@ import Component from 'vue-class-component'
 })
 export default class App extends Vue {
   // initial data
-  msg = 12023 
+  msg = 13232
 
   // use prop values for initial data
   helloMsg = 'Hello, ' + this.propMessage
