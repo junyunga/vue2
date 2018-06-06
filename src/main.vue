@@ -1,6 +1,6 @@
 <template>
     <div>
-        <aaa></aaa>
+        <J-header></J-header>
     </div>
 </template>
 
@@ -12,7 +12,7 @@
     
     @Component({
         components: {
-            "aaa": Header
+            "J-header": Header
         }
     })
     export default class Main extends Vue {
@@ -20,6 +20,6 @@
     }
 </script>
 
-<style lang="">
+<style lang="scss">
     
 </style>
