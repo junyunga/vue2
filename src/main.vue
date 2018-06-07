@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div id="main">
         <J-header></J-header>
     </div>
 </template>
@@ -21,5 +21,9 @@
 </script>
 
 <style lang="scss">
-    
+    #main {
+        width: 100%;
+        height: 100%;
+        position: relative;
+    }   
 </style>
