@@ -8,7 +8,7 @@
  *
  *  This project was released under MIT license.
  *
- *  @link      https://github.com/rafrex/spa-github-pages
+ *  @link      https://github.com/junyunga/vue2
  *  @author    Rafael Pedicini <code@rafrex.com>
  *  @link      http://websemantics.ca
  *  @author    Adnan M.Sagar, PhD. <adnan@websemantics.ca>
