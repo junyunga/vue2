@@ -12,7 +12,7 @@
     import Header from './components/layout/header.vue'
     import Left from './components/layout/left.vue'
     import MainContainer from './components/layout/container.vue'
-    
+    import DB from './db/firebase'
     
     @Component({
         components: {
@@ -22,7 +22,7 @@
         }
     })
     export default class Main extends Vue {
-    
+        
     }
 </script>
 

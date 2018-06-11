@@ -1,7 +1,10 @@
 <template>
     <div id="left">
         <nav>
-
+            <div>1</div>
+            <div>1</div>
+            <div>1</div>
+            <div>1</div>
         </nav>
     </div>
 </template>

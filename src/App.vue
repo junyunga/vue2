@@ -1,10 +1,10 @@
 <template>
   <div id="app">
-    <div class="loading">
+    <!-- <div class="loading">
       <div class="piece-1">1</div>
       <div class="piece-2">1</div>
-    </div>
-    <!-- <router-view></router-view> -->
+    </div> -->
+    <router-view></router-view>
   </div>
 </template>
 
