@@ -13,7 +13,6 @@
     import Left from './components/layout/left.vue'
     import MainContainer from './components/layout/container.vue'
     import DB from './db/firebase'
-    
     @Component({
         components: {
             "J-header": Header,
@@ -21,6 +20,7 @@
             "J-MainContainer" : MainContainer
         }
     })
+
     export default class Main extends Vue {
         
     }
