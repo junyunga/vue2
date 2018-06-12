@@ -2,7 +2,9 @@
     <div id="main">
         <J-header></J-header>
         <J-left></J-left>
-        <J-MainContainer></J-MainContainer>
+        <J-MainContainer>
+           <router-view slot="routerView"></router-view>
+        </J-MainContainer>
     </div>
 </template>
 
