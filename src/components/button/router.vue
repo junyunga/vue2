@@ -6,7 +6,7 @@
             class="router-list"
             @click.prevent="go()"
         >{{routerName}}
-        <i class="fas fa-angle-double-down"></i>
+        <!-- <i class="fas fa-angle-double-down"></i> -->
     </div>
 </div>
 </div>

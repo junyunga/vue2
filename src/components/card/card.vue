@@ -32,7 +32,6 @@ export default class Card extends Vue {
 #card {
     display: flex;
     flex-wrap: wrap;
-    padding: 0px 0px 0px 14px;
     .container {
         flex: 1 1 auto;
         width: 300px;
