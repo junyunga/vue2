@@ -1,15 +1,20 @@
 <template>
     <div id="mainContainer">
         <div v-show="this.$route.name === 'Main'">
-            1
+            <J-cards></J-cards>
         </div>
          <slot name="routerView"></slot>
     </div>
 </template>
 <script lang="ts">
     import {Vue ,Component} from 'vue-property-decorator';
+    import Card from '../card/card.vue';
     
-    @Component
+    @Component({
+        components : {
+            "J-cards" : Card
+        }
+    })
     export default class MainContainer extends Vue {
         constructor() {
             super();
@@ -25,10 +30,11 @@
 <style lang="scss">
     #mainContainer {
         position: relative;
+        top: 54px;
         width: calc(100% - 205px);
         height: 100%;
         margin: 20px 100px 0px 200px;
-        border: 1px solid red;
+        
     }
 
 </style>

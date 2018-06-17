@@ -9,8 +9,7 @@
 </template>
 
 <script lang="ts">
-    import Vue from 'vue'
-    import Component from 'vue-class-component'
+    import {Component, Vue, Emit} from 'vue-property-decorator'
     import Header from './components/layout/header.vue'
     import Left from './components/layout/left.vue'
     import MainContainer from './components/layout/container.vue'

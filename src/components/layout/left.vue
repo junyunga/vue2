@@ -1,7 +1,7 @@
 <template>
 <div id="left">
     <nav>
-        <J-list :routerTo="'dashboard'" :text="`Dashboard`"></J-list>
+        <J-list :routerTo="'dashboard'" icon="apple" :text="`Dashboard`"></J-list>
     </nav>
 </div>
 </template>
@@ -22,11 +22,12 @@ export default class Left extends Vue {}
 
 <style lang="scss">
 #left {
-    position: absolute;
+    position: fixed;
+    top: 54px;
     left: 0;
     width: 200px;
     height: 700px;
     overflow: auto;
-    background: linear-gradient(to bottom  right, #35478C, #a3aedc);
+    background: #303030;
 }
 </style>
