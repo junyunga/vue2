@@ -14,6 +14,12 @@
     import Left from './components/layout/left.vue'
     import MainContainer from './components/layout/container.vue'
     import DB from './db/firebase'
+    import api from '@/api'
+    
+    api.get('/book.json').then((response) => {
+        console.log(response)
+    })
+
     @Component({
         components: {
             "J-header": Header,
